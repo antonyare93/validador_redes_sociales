@@ -1,6 +1,7 @@
 import time
 import json
 import instagram_scorer as ig_sc
+import linkedin_scorer as lkn_sc
 
 # Usuarios de prueba.
 # El programa debe recibir un json con los valores relacionados en el json de prueba
@@ -24,5 +25,7 @@ for usuario in rs:
         url = 'https://twitter.com/' + rs[usuario]
     else:
         url = rs[usuario]
+        if usuario == 'linkedin':
+            lkn_followers, lkn_status = lkn_sc.existProfile(url)
 
 time.sleep(300)
