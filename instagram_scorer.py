@@ -5,7 +5,7 @@ from selenium.common.exceptions import NoSuchElementException
 
 
 def get_values(url):
-    with webdriver.Chrome(executable_path='D:/Proyectos/Python/validador_redes_sociales/chromedriver_win32/v_106/chromedriver.exe') as driver:
+    with webdriver.Chrome(executable_path='chromedriver_win32/v_106/chromedriver.exe') as driver:
         driver.get(url)
         time.sleep(10)
         try:
