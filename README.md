@@ -3,4 +3,4 @@ El proyecto realiza scraping en redes sociales compartidas por un usuario para e
 ***
 En una segunda fase, se podría implementar un ML que pueda determinar qué categorías/variables tienen mayor capacidad discriminante
 ## Tecnologías
-Hecho con python, utilizando librerías beautifulsoap y selenium
+Hecho con python, utilizando librerías selenium, json
